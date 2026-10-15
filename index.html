@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HydroScience COA Badge Test</title>
+<style>
+  body { margin: 0; font-family: Calibri, Carlito, "Segoe UI", system-ui, sans-serif; color: #0B2B24; background: #F3F8F6; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px; }
+  h1 { font-family: Georgia, serif; font-weight: 400; margin: 0 0 8px; }
+  p { color: #4A6A62; margin: 0 0 24px; }
+  .row { display: flex; flex-wrap: wrap; gap: 16px; }
+  .tile { flex: 1 1 300px; padding: 28px 20px; border-radius: 14px; background: #fff; border: 1px solid #D9EAE3; text-align: center; }
+  .tile.dark { background: #0E2A23; border-color: #0E2A23; }
+  code { background: #E1F5EE; padding: 2px 6px; border-radius: 5px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>COA Badge test page</h1>
+  <p>Both badges load the <code>example-daily-foundation</code> row from the HydroScience COA Badges sheet. If they show here, the hosted script and the sheet are working.</p>
+  <div class="row">
+    <div class="tile"><div data-hs-coa="example-daily-foundation"></div></div>
+    <div class="tile dark"><div data-hs-coa="example-daily-foundation" data-theme="dark"></div></div>
+  </div>
+</main>
+<script src="hs-coa-widget.min.js"></script>
+</body>
+</html>
